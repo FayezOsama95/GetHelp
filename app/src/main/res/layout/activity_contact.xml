@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:clipToPadding="false"
+    android:layoutDirection="rtl"
+    android:scrollbars="none"
+    android:scrollingCache="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="291dp"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/spacing_xlarge">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:gravity="center"
+                    android:text="فريقنا"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/grey_90"
+                    app:fontFamily="sans-serif-medium" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/swipe_up_handle"
+                    android:tint="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_avatar_male"
+                            app:civ_border="true"
+                            app:civ_border_color="@color/grey_10"
+                            app:civ_border_width="2dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:text="محسن عفانة"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_90"
+                            app:fontFamily="sans-serif-medium" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="المبرمج"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_60"
+                            app:fontFamily="sans-serif-light" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_avatar_male"
+                            app:civ_border="true"
+                            app:civ_border_color="@color/grey_10"
+                            app:civ_border_width="2dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:text="عبدالله مراد"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_90"
+                            app:fontFamily="sans-serif-medium" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="المبرمج"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_60"
+                            app:fontFamily="sans-serif-light" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_avatar_male"
+                            app:civ_border="true"
+                            app:civ_border_color="@color/grey_10"
+                            app:civ_border_width="2dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:text="أنس شاهين"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_90"
+                            app:fontFamily="sans-serif-medium" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="معالج نفسي "
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_60"
+                            app:fontFamily="sans-serif-light" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginTop="@dimen/spacing_mlarge"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_avatar_male"
+                            app:civ_border="true"
+                            app:civ_border_color="@color/grey_10"
+                            app:civ_border_width="2dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:text=""
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_90"
+                            app:fontFamily="sans-serif-medium" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="أمن"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_60"
+                            app:fontFamily="sans-serif-light" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_avatar_male"
+                            app:civ_border="true"
+                            app:civ_border_color="@color/grey_10"
+                            app:civ_border_width="2dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:text="سامي عطا الله "
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_90"
+                            app:fontFamily="sans-serif-medium" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="معالج نفسي"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_60"
+                            app:fontFamily="sans-serif-light" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_avatar_male"
+                            app:civ_border="true"
+                            app:civ_border_color="@color/grey_10"
+                            app:civ_border_width="2dp"
+                            app:civ_shadow="true"
+                            app:civ_shadow_radius="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_medium"
+                            android:text="فريال ثابت"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_90"
+                            app:fontFamily="sans-serif-medium" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="إخصائية نفسية"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                            android:textColor="@color/grey_60"
+                            app:fontFamily="sans-serif-light" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_middle" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/spacing_mlarge"
+                android:paddingTop="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_mlarge"
+                android:paddingBottom="@dimen/spacing_large">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="الرسالة"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/grey_90"
+                    app:fontFamily="sans-serif-medium" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/swipe_up_handle"
+                    android:tint="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:text="يسعى فريق عمل Get Help لحل مشاكل فئة كبيرة من المجتمع,هذه الفئة يكون لديها خوف من مواجهة مشاكلها أو طلب مساعدة من جهة مختصة بسبب الخوف أو الخجل من العائلة أو أي أسباب أخرى "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/grey_60"
+                    app:fontFamily="sans-serif-light" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_middle" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/spacing_mlarge"
+                android:paddingTop="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_mlarge"
+                android:paddingBottom="@dimen/spacing_large">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="تواصل معنا"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/grey_90"
+                    app:fontFamily="sans-serif-medium" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="4dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/swipe_up_handle"
+                    android:tint="@color/colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="@dimen/spacing_xmedium"
+                        android:layout_height="0dp" />
+
+                    <ImageButton
+                        android:layout_width="@dimen/spacing_xmlarge"
+                        android:layout_height="@dimen/spacing_xmlarge"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:tint="@color/grey_40"
+                        app:srcCompat="@drawable/ic_phone" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0599746197"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/grey_60"
+                        android:textDirection="rtl" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="@dimen/spacing_xmedium"
+                        android:layout_height="0dp" />
+
+                    <ImageButton
+                        android:layout_width="@dimen/spacing_xmlarge"
+                        android:layout_height="@dimen/spacing_xmlarge"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:tint="@color/grey_40"
+                        app:srcCompat="@drawable/ic_phone" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0562233011"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/grey_60"
+                        android:textDirection="rtl" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="@dimen/spacing_xmedium"
+                        android:layout_height="0dp" />
+
+                    <ImageButton
+                        android:layout_width="@dimen/spacing_xmlarge"
+                        android:layout_height="@dimen/spacing_xmlarge"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:tint="@color/grey_40"
+                        app:srcCompat="@drawable/ic_email" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="mohseneyas@gmail.com"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/grey_60"
+                        android:textDirection="rtl" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_middle" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

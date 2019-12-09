@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomNavHomeFragment"
+        android:icon="@drawable/ic_rss_feed"
+        android:title="المجتمع"/>
+
+    <item
+        android:id="@+id/bottomNavLibraryFragment"
+        android:icon="@drawable/ic_verified_user"
+        android:title="الخبراء"/>
+
+    <item
+        android:id="@+id/bottomFragmentNotificationFragment"
+        android:icon="@drawable/ic_public"
+        android:title="مقالات"/>
+
+</menu>

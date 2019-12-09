@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionEdit"
+        android:title="جميع المشاركات" />
+
+    <item
+        android:id="@+id/actionDelete1"
+        android:title="المشاركات المتعلقة بموضوع 1" />
+    <item
+        android:id="@+id/actionDelete2"
+        android:title="المشاركات المتعلقة بموضوع 2" />
+    <item
+        android:id="@+id/actionDelete3"
+        android:title="المشاركات المتعلقة بموضوع 3" />
+
+</menu>

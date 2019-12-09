@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/bottomNavHomeFragment">
+
+    <fragment
+        android:id="@+id/bottomNavHomeFragment"
+        android:name="com.am.gethelp.ui.home.HomeFragment"
+        android:label="الرئيسية"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/bottomNavLibraryFragment"
+        android:name="com.am.gethelp.ui.gallery.GalleryFragment"
+        android:label="تحدث مع خبير مختص"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/bottomFragmentNotificationFragment"
+        android:name="com.am.gethelp.ui.tools.ToolsFragment"
+        android:label="مقالات"
+        tools:layout="@layout/fragment_tools" />
+</navigation>
